@@ -1,0 +1,17 @@
+{
+  "name": "ignite-fundamentos-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DiogoMiranda-dev/ignite-fundamentos-react.git",
+  "author": "Diogo Miranda <diogosminfor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1"
+  }
+}
