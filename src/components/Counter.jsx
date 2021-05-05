@@ -7,7 +7,6 @@ export function Counter() {
     setCounter(counter + 1);
   }
   function handleDecrement() {
-    console.log('incremente');
     setCounter(counter - 1);
   }
 
@@ -15,10 +14,10 @@ export function Counter() {
     <div>
       <h2>{counter}</h2>
       <button type="button" onClick={handleIncrement}>
-        Increment
+        Increment +1
       </button>
       <button type="button" onClick={handleDecrement}>
-        Decrement
+        Decrement -1
       </button>
     </div>
   );
